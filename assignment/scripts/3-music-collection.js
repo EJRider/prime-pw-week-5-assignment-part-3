@@ -21,11 +21,11 @@ function showCollection(array){
     }
 }
 
-function findByArtist(artist){
+function findByArtist(artistSearch){
     let results = [];
-        for (let i=0; i<collection.length; i++){
-            if(artist.artistName === artist){
-                results.push([artist[i].artistName]);
+        for (i=0; i<collection.length; i++){
+            if(collection[i].artistName === artistSearch){
+                results.push([collection[i]]);
             }
         }
     return results;
@@ -43,4 +43,4 @@ console.log(collection);
 
 console.log(showCollection(collection));
 
-console.log(findByArtist('Joji'));
+console.log(findByArtist('Moody Blues'));
