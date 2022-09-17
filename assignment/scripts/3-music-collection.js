@@ -14,8 +14,13 @@ function addToCollection(title, artist, yearPublished){
    return newTitle;
 };
 
-addToCollection('Dark Side of the Moon', 'Pink Floyd', 1973);
+//function showCollection()
 
-addToCollection('Danger Days', 'My Chemical Romance', 2010);
+console.log(addToCollection('Dark Side of the Moon', 'Pink Floyd', 1973));
+console.log(addToCollection('Danger Days', 'My Chemical Romance', 2010));
+console.log(addToCollection('Electra Heart', 'Marina and the Diamonds', 2012));
+console.log(addToCollection('In Tongues', 'Joji', 2017));
+console.log(addToCollection('Three Cheers for Sweet Revenge', 'My Chemical Romance', 2004));
+console.log(addToCollection('AAAH!BBA', 'Brian David Gilbert', 2021));
 
 console.log(collection);
